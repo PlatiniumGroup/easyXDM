@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "concat-cli -f src/Core.js -f src/Debug.js -f src/DomHelper.js -f src/Fn.js -f src/Socket.js -f src/Rpc.js -f src/stack/*.js -o dist/easyxdm.js && uglifyjs -c -o dist/easyxdm.min.js dist/easyxdm.js"
+  },
+  "devDependencies": {
+    "concat-cli": "^4.0.0",
+    "uglify-js": "^2.6.2"
+  }
+}

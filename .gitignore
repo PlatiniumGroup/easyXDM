@@ -1,6 +1,5 @@
 artifacts/
 work/
-dist/
 docs/
 build.number
 .tmp_*
@@ -8,3 +7,4 @@ src/.*
 *.prefs
 build.secret.properties
 src/tests/easyXDM.debug.js
+/node_modules
